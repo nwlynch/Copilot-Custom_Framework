@@ -1,0 +1,27 @@
+# Python Startup Requirements File
+# ==============================================================================
+# This file documents required dependencies for GitHub Copilot sessions
+# ==============================================================================
+
+# Core Python
+python>=3.10
+
+# Type checking (essential for no-guessing rule)
+mypy>=1.0.0
+pyright>=1.1.0
+
+# Code quality and linting
+flake8>=6.0.0
+isort>=5.12.0
+
+# Testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+hypothesis>=6.0.0  # Property-based testing to catch edge cases
+
+# Optional: Code documentation (if you need it)
+sphinx>=7.0.0
+docstrfmt>=1.4.0
+
+# Optional: Type stubs for common libraries
+typing-extensions>=4.0.0
